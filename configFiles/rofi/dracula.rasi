@@ -1,0 +1,57 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Colors
+ **/
+
+* {
+
+    drac-bgd: #282a36;
+    drac-cur: #44475a;
+    drac-fgd: #f8f8f2;
+    drac-cmt: #6272a4;
+    drac-cya: #8be9fd;
+    drac-grn: #50fa7b;
+    drac-ora: #ffb86c;
+    drac-pnk: #ff79c6;
+    drac-pur: #bd93f9;
+    drac-red: #ff5555;
+    drac-yel: #f1fa8c;
+
+    background:           #1E2127FF;
+    background-alt:       #282B31FF;
+    foreground:           #FFFFFFFF;
+    selected:             #61AFEFFF;
+    active:               #98C379FF;
+    urgent:               #E06C75FF;
+    handle-colour:        #202329;
+    alternate-background: #282c34;
+    border-colour:        #ff5555;
+    bordercolour:        #ff5555;
+
+active-background: #1E2127;
+active-foreground: #E2E8E7;
+normal-background: #1E2127;
+normal-foreground: #E2E8E7;
+urgent-background: #1E2127;
+urgent-foreground: #E2E8E7;
+
+alternate-active-background: #1E2127;
+alternate-active-foreground: #E2E8E7;
+alternate-normal-background: #1E2127;
+alternate-normal-foreground: #E2E8E7;
+alternate-urgent-background: #1E2127;
+alternate-urgent-foreground: #E2E8E7;
+
+selected-active-background: #494E54;
+selected-active-foreground: #E2E8E7;
+selected-normal-background: #CDD6D4;
+selected-normal-foreground: #1E2127;
+selected-urgent-background: #6D8084;
+selected-urgent-foreground: #E2E8E7;
+
+background-color: #1E2127FF;
+
+}

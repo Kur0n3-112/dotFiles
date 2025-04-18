@@ -1,0 +1,6 @@
+[General]
+theme=gruvbox-kvantum
+
+[Applications]
+Default=dolphin
+KvAmbiance=dolphin

@@ -1,0 +1,98 @@
+/* ---- Kur's Config [TOP & BOT] Minimal bar setting ---- */
+
+// ### DUAL TOP and BOTTOM ### //
+
+[{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 0,
+"margin-right": 0,
+"output": "HDMI-A-2",
+
+"modules-left": [	
+  "custom/separator#line",
+  "cpu#kur2",
+  "custom/gpuUsage",
+  "memory#kur2",
+  "custom/CPUTemp#Kur",
+  "custom/gpuTemp",
+	"disk#kur2",
+	"custom/separator#line",
+	],
+  
+"modules-center": [
+  "custom/separator#line",
+  "custom/swaync",
+  "custom/separator#dot-line",
+  "hyprland/workspaces#num",
+  "custom/separator#dot-line",
+  "custom/idle_inhibitor",
+  "custom/separator#line",
+	],
+
+"modules-right": [
+  "custom/separator#line",
+  "custom/weather",
+  "custom/kbd_layout",
+	"bluetooth#kur",
+//	"network#kur",
+	"custom/updater#kur",
+  "custom/separator#line",
+	"custom/lock", 
+  "custom/separator#line",
+	],
+},
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "bottom",
+"spacing": 5,
+"fixed-center": true,
+"ipc": true,
+"height": 0,
+"margin-left": 0,
+"margin-right": 0,
+"margin-bottom": 0,
+"output": "HDMI-A-2",
+
+"modules-left": [
+  "custom/separator#line",
+	"custom/menuCapybara",
+  "custom/separator#dot-line",
+  "wlr/taskbar#kur",
+  "custom/separator#line",
+	 ],
+
+"modules-center": [
+    "custom/separator#line",
+    "clock#kur",
+    "custom/separator#line",
+],
+
+"modules-right": [
+  "privacy",
+  "custom/separator#line",
+	"hyprland/window#kur",
+	"tray",
+	"mpris",
+	//"keyboard-state#kur",
+	"pulseaudio",
+	"pulseaudio#microphone",
+  "custom/separator#line",
+	"custom/power#kur",
+  "custom/separator#line",
+	],
+
+}]

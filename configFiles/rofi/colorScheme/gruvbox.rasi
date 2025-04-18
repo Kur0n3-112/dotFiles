@@ -1,0 +1,76 @@
+/*Gruvbox Color Scheme*/
+
+* {
+bg: #282828;
+red: #cc241d;
+green-1: #98971a;
+yellow-1: #d79921;
+blue-1: #458588;
+purple-1: #b16286;
+aqua-1: #689d6a;
+gray-1: #a89984;
+
+gray-2: #928374;
+red-2: #fb4934;
+green-2: #b8bb26;
+yellow-2: #fabd2f;
+blue-2: #83a598;
+purple-2: #d3869b;
+aqua-2: #8ec07c;
+fg: #ebdbb2;
+
+bg0-h: #1d2021;
+bg0: #282828;
+bg1: #3c3836;
+bg2: #504945;
+bg3: #665c54;
+bg4: #7c6f64;
+gray-3: #928374;
+orange-1: #d65d0e;
+
+bg0-s: #32302f;
+fg4: #a89984;
+fg3: #bdae93;
+fg2: #d5c4a1;
+fg1: #ebdbb2;
+fg0: #fbf1c7;
+orange-2: #fe8019;
+
+    
+ background:           @bg;
+ background-alt:       @bg0-s;
+ foreground:           @fg;
+ foreground-alt:       @fg;
+ selected:             @orange-1;
+ active:               @bg3;
+ urgent:               @red;
+ handle-colour:        @yellow-1;
+ alternate-background: @bg2;
+ border-colour:        @orange-2;
+ selected:             @orange-1; 
+
+ active-background: @bg;
+ active-foreground: @fg;
+ normal-background: @bg;
+ normal-foreground: @fg;
+ urgent-background: @bg;
+ urgent-foreground: @fg;
+ 
+ alternate-active-background: @bg;
+ alternate-active-foreground: @fg;
+ alternate-normal-background: @bg2;
+ alternate-normal-foreground: @fg;
+ alternate-urgent-background: @bg;
+ alternate-urgent-foreground: @fg;
+ 
+ selected-active-background: @red;
+ selected-active-foreground: @fg;
+ selected-normal-background: @red;
+ selected-normal-foreground: @bg;
+ selected-urgent-background: @bg;
+ selected-urgent-foreground: @fg;
+ 
+ background-color: @bg;
+ bc: @border-colour;
+
+}

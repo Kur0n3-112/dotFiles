@@ -1,0 +1,49 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config (long) */
+
+@import "~/.config/rofi/config-KurTheme"
+@import "~/.config/rofi/colorScheme.rasi"
+
+*{
+  background-color: @bg;
+  border-color: @bc;
+}
+
+/* ---- Window ---- */
+window {
+  width: 50%;
+}
+
+/* ---- Entry ---- */
+entry {
+  placeholder: "🔎 Search       ";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 1;
+  lines: 8;
+  scrollbar: true;
+}
+
+/*****----- Main Window -----*****/
+window {
+    /* properties for window widget */
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       1000px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    /* properties for all widgets */
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      2px solid;
+    border-radius:               0px;
+    border-color:                @border-color;
+    cursor:                      "default";
+    background-color:            @background-color;
+}

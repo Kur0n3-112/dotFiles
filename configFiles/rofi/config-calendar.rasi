@@ -1,0 +1,32 @@
+/* Calendar Config (long) - Calendar */
+
+@import "~/.config/rofi/config-short.rasi"
+@import "~/.config/rofi/colorScheme.rasi"
+
+/* ---- Entry ---- */
+entry {
+  width: 25%;
+  placeholder: "Calendar";
+}
+
+/*****----- Main Window -----*****/
+window {
+    /* properties for window widget */
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       800px;
+    length:                      800px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    /* properties for all widgets */
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      2px solid;
+    border-radius:               0px;
+    border-color:                @border-color;
+    cursor:                      "default";
+    background-color:            @background-color;
+}
